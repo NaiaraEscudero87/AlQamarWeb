@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Qamar Navigation</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background: #000; /* Fondo negro */
+        }
+        header {
+            background: #000;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        header img {
+            max-width: 600px; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            display: block;
+            margin: 0 auto 1rem auto;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            background: #000;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        nav a {
+            margin: 0 1.5rem;
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: bold;
+            font-size: 1.6rem; /* Tamaño de letra aumentado */
+            transition: color 0.3s, border-bottom 0.3s;
+            padding-bottom: 0.2rem;
+        }
+        nav a:hover {
+            color: #006400; /* Verde oscuro */
+            border-bottom: 2px solid #8b0000; /* Rojo oscuro */
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 3rem 2rem;
+            justify-content: center;
+            background: #000;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1); /* Fondo translúcido */
+            border-radius: 12px;
+            padding: 2rem;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 100, 0, 0.4); /* Sombra verde oscuro */
+        }
+        .card h3 {
+            color: #006400; /* Verde oscuro */
+            margin-bottom: 1rem;
+        }
+        .card p {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem 1rem;
+            background: #000;
+            color: rgba(255, 255, 255, 0.5);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        footer a {
+            color: #8b0000; /* Rojo oscuro */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/home/nescudero/Dropbox/PhD/AlQamar_technicalDocs/AlQamar_logo_texto_white.png" alt="Al Qamar Navigation Logo">
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#technology">Technology</a>
+        <a href="#stem">STEM</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <div id="home" class="container">
+        <div class="card">
+            <h3>Technology</h3>
+            <p>Explore the cutting-edge solutions shaping the future of navigation.</p>
+        </div>
+        <div class="card">
+            <h3>STEM</h3>
+            <p>Empowering innovation through education and outreach initiatives.</p>
+        </div>
+        <div class="card">
+            <h3>About Us</h3>
+            <p>Learn more about our team, mission, and vision for the future.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Al Qamar Navigation. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
+
